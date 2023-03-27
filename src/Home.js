@@ -4,7 +4,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <main className={styles.home}>
       <h1>Home</h1>
 
       <section>
@@ -15,19 +15,6 @@ const Home = () => {
         </p>
       </section>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <section id="projects">
         <h2>Projetos</h2>
         <p>
@@ -35,19 +22,6 @@ const Home = () => {
           selecionados.
         </p>
       </section>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       <section id="education">
         <h2>Formação</h2>
@@ -57,19 +31,6 @@ const Home = () => {
         </p>
       </section>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <section>
         <h2>#ProjetosPessoais</h2>
         <p>
@@ -77,20 +38,7 @@ const Home = () => {
         </p>
         <Link to="/projetos-pessoais">Clique Aqui</Link>
       </section>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
+    </main>
   );
 };
 
