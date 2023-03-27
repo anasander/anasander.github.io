@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 import { NavLink, useLocation } from "react-router-dom";
+import * as images from "./Components/Images/Images";
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -26,7 +27,7 @@ const Header = () => {
         <h1>Header</h1>
         <nav className={styles.header}>
           <NavLink to="/" end>
-            Home
+            <img src={images.logo} alt="" />
           </NavLink>
           <button onClick={scrollProjects}>Projetos</button>
           <button onClick={scrollEducation}>Formação</button>
@@ -41,7 +42,7 @@ const Header = () => {
         <h1>Header</h1>
         <nav className={styles.header}>
           <NavLink to="/" end>
-            Home
+            <img src={images.logo} alt="" />
           </NavLink>
           <button to="/projetos-pessoais" disabled>
             #ProjetosPessoais

@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Posts.module.css";
 import Post from "./Post";
 import * as images from "../Images/Images";
 
@@ -25,7 +26,7 @@ const Posts = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.posts}>
       <h2>Essa é a página cheia de postagens.</h2>
       {blogPost.map((post, index) => (
         <Post key={index} index={index} post={post} />
