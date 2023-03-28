@@ -4,12 +4,14 @@ import Home from "./Home";
 import PersonalProjects from "./PersonalProjects";
 import Header from "./Header";
 import Footer from "./Footer";
+import ScrollTop from "./Components/ScrollTop/ScrollTop";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <main>
+        <ScrollTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projetos-pessoais" element={<PersonalProjects />} />
