@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Header.module.css";
 import { NavLink, useLocation } from "react-router-dom";
 import * as images from "./Components/Images/Images";
+import Button from "./Components/Button/Button";
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -24,14 +25,13 @@ const Header = () => {
   if (pathname === "/") {
     return (
       <header>
-        <h1>Header</h1>
         <nav className={styles.header}>
           <NavLink to="/" end>
             <img src={images.logo} alt="" />
           </NavLink>
-          <button onClick={scrollProjects}>Projetos</button>
-          <button onClick={scrollEducation}>Formação</button>
-          <button onClick={scrollContact}>Contato</button>
+          <Button onClick={scrollProjects}>Projetos</Button>
+          <Button onClick={scrollEducation}>Formação</Button>
+          <Button onClick={scrollContact}>Contato</Button>
           <NavLink to="/projetos-pessoais">#ProjetosPessoais</NavLink>
         </nav>
       </header>
@@ -39,14 +39,13 @@ const Header = () => {
   } else {
     return (
       <header>
-        <h1>Header</h1>
         <nav className={styles.header}>
           <NavLink to="/" end>
             <img src={images.logo} alt="" />
           </NavLink>
-          <button to="/projetos-pessoais" disabled>
+          <NavLink to="/projetos-pessoais" disabled>
             #ProjetosPessoais
-          </button>
+          </NavLink>
         </nav>
       </header>
     );

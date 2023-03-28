@@ -9,33 +9,24 @@ import * as images from "./Components/Images/Images";
 const Home = () => {
   return (
     <main className={styles.home}>
-      <h1>Home</h1>
-
       <section>
         <img src={images.perfil} alt="" />
-        <h2>Intro</h2>
-        <img src="" alt="" />
+        <h1>Ana Sander</h1>
+        <span>Desenvolvedora Front-End e UI/UX Designer.</span>
         <p>
-          Aqui está uma descrição com minhas capacidades e habilidades de
-          interesse.
+          Desenvolvedora Front-End utilizando HTML, CSS, JavaScript e React,
+          como os projetos Plushy, Ultra Arcade e Iguana Games, sendo
+          responsável pelo UI/UX Design dos mesmos.
         </p>
       </section>
 
       <section id="projects">
         <h2>Projetos</h2>
-        <p>
-          Aqui está uma lista contendo todos os meus melhores projetos
-          selecionados.
-        </p>
         <Projects />
       </section>
 
       <section id="education">
         <h2>Formação</h2>
-        <p>
-          Aqui está uma lista detalhando todos os meus cursos mais importantes
-          na área de Front-End.
-        </p>
         <Education />
         <Languages />
       </section>
@@ -46,7 +37,9 @@ const Home = () => {
           Quer conhecer um pouco mais sobre mim e minhas paixões? Só clicar no
           botão abaixo e descobrir:
         </p>
-        <Link to="/projetos-pessoais">Clique Aqui</Link>
+        <Link to="/projetos-pessoais" className="button">
+          Clique Aqui
+        </Link>
       </section>
     </main>
   );

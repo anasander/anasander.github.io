@@ -27,7 +27,6 @@ const Posts = () => {
 
   return (
     <div className={styles.posts}>
-      <h2>Essa é a página cheia de postagens.</h2>
       {blogPost.map((post, index) => (
         <Post key={index} index={index} post={post} />
       ))}

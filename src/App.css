@@ -3,6 +3,63 @@
   padding: 0px;
 }
 
+:root {
+  --c1: #2b0839;
+  --c2: #1f0c56;
+  --c3: #11267e;
+  --c4: #e9edff;
+  --b1: #1d0526;
+  --b2: #312652;
+  --b3: #535a79;
+  --b4: #a0a8cd;
+  --bl: #000000;
+  --w: #ffffff;
+}
+
+body {
+  font-family: "Roboto Mono";
+}
+
+.container {
+  max-width: 1400px;
+}
+
 /* img {
   width: 100%;
 } */
+
+.button {
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  border: none;
+  background: linear-gradient(180deg, var(--c3) 0%, var(--c1) 100%);
+  border-radius: 4px;
+  color: var(--w);
+  padding: 10px 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.button:hover:not(:focus) {
+  box-shadow: 4px 4px 0px #000000;
+  animation: up 0.1s forwards;
+  transition: 0.1s;
+  background: linear-gradient(180deg, var(--c3) 0%, var(--c2) 100%);
+}
+
+.button:focus,
+.button:active {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--c3), 0 0 0 3px var(--c1);
+  background: linear-gradient(180deg, var(--c2) 0%, var(--c1) 100%);
+}
+
+@keyframes up {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
+}
