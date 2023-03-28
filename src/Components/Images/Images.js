@@ -8,4 +8,4 @@ export { default as github } from "../../Assets/github.svg";
 export { default as twitter } from "../../Assets/twitter.svg";
 export { default as instagram } from "../../Assets/instagram.svg";
 export { default as perfil } from "../../Assets/foto-intro.png";
-export { default as logo } from "../../Assets/logo.svg";
+export { default as logo } from "../../Assets/logo-transparent.svg";

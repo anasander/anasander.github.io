@@ -24,28 +24,37 @@ const Header = () => {
 
   if (pathname === "/") {
     return (
-      <header>
-        <nav className={styles.header}>
+      <header className={styles.headerBG}>
+        <nav className={`${styles.header} container`}>
           <NavLink to="/" end>
             <img src={images.logo} alt="" />
           </NavLink>
-          <Button onClick={scrollProjects}>Projetos</Button>
-          <Button onClick={scrollEducation}>Formação</Button>
-          <Button onClick={scrollContact}>Contato</Button>
-          <NavLink to="/projetos-pessoais">#ProjetosPessoais</NavLink>
+          <div className={styles.headerBtns}>
+            <Button onClick={scrollProjects}>Projetos</Button>
+            <Button onClick={scrollEducation}>Formação</Button>
+            <Button onClick={scrollContact}>Contato</Button>
+            <NavLink to="/projetos-pessoais" className={styles.pp}>
+              #ProjetosPessoais
+            </NavLink>
+          </div>
         </nav>
       </header>
     );
   } else {
     return (
-      <header>
-        <nav className={styles.header}>
+      <header className={styles.headerBG}>
+        <nav className={`${styles.header} container`}>
           <NavLink to="/" end>
             <img src={images.logo} alt="" />
           </NavLink>
-          <NavLink to="/projetos-pessoais" disabled>
-            #ProjetosPessoais
-          </NavLink>
+          <div className={styles.headerBtns}>
+            <NavLink to="/" className="button">
+              Voltar
+            </NavLink>
+            <NavLink to="/projetos-pessoais" className={styles.disabled}>
+              #ProjetosPessoais
+            </NavLink>
+          </div>
         </nav>
       </header>
     );
