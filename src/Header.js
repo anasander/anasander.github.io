@@ -22,12 +22,18 @@ const Header = () => {
     scrollC.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  const [mobileMenu, setMobileMenu] = React.useState(false);
+
+  React.useEffect(() => {
+    setMobileMenu(false);
+  }, [pathname]);
+
   if (pathname === "/") {
     return (
       <header className={styles.headerBG}>
         <nav className={`${styles.header} container`}>
           <NavLink to="/" end>
-            <img src={images.logo} alt="" />
+            <img src={images.logo} className={styles.logo} alt="" />
           </NavLink>
           <div className={styles.headerBtns}>
             <Button onClick={scrollProjects}>Projetos</Button>
@@ -37,6 +43,41 @@ const Header = () => {
               #ProjetosPessoais
             </NavLink>
           </div>
+          <button
+            onClick={() => setMobileMenu(!mobileMenu)}
+            className={`${styles.mobileBtn} ${
+              mobileMenu && styles.mobileBtnActv
+            }`}
+          ></button>
+          <ul
+            className={`${styles.menuDrop} ${
+              mobileMenu && styles.menuDropActv
+            }`}
+          >
+            <li>
+              <p onClick={scrollProjects} className={styles.singleMobile}>
+                Projetos
+              </p>
+            </li>
+            <li>
+              <p onClick={scrollEducation} className={styles.singleMobile}>
+                Formação
+              </p>
+            </li>
+            <li>
+              <p onClick={scrollContact} className={styles.singleMobile}>
+                Contato
+              </p>
+            </li>
+            <li className={styles.singleMobile}>
+              <NavLink
+                to="/projetos-pessoais"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                #ProjetosPessoais
+              </NavLink>
+            </li>
+          </ul>
         </nav>
       </header>
     );
@@ -55,6 +96,9 @@ const Header = () => {
               #ProjetosPessoais
             </NavLink>
           </div>
+          <NavLink to="/" className={`${styles.voltar} button`}>
+            Voltar
+          </NavLink>
         </nav>
       </header>
     );
