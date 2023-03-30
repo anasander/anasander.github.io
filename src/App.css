@@ -18,16 +18,35 @@
 
 body {
   font-family: "Roboto Mono";
+  background: var(--w);
+}
+
+img {
+  width: 100%;
 }
 
 .container {
   max-width: 1380px;
+  padding: 0px 20px;
   margin: 0 auto;
 }
 
-/* img {
-  width: 100%;
-} */
+.titulo {
+  font-family: "Prata";
+  font-size: 6.5rem;
+}
+
+.sub {
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.b2 {
+  color: var(--b2);
+}
 
 .button {
   text-decoration: none;
@@ -62,5 +81,33 @@ body {
   }
   to {
     transform: translateY(-2px);
+  }
+}
+
+@media (max-width: 1375px) {
+  .titulo {
+    font-size: 5rem;
+  }
+
+  .sub {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 551px) {
+  .titulo {
+    font-size: 4rem;
+  }
+  .sub {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 460px) {
+  v .titulo {
+    font-size: 2rem;
+  }
+  .sub {
+    font-size: 1rem;
   }
 }

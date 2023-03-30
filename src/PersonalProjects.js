@@ -4,10 +4,12 @@ import styles from "./PersonalProjects.module.css";
 
 const PersonalProjects = () => {
   return (
-    <div className={styles.personal}>
-      <h1>#ProjetosPessoais</h1>
-      <Posts />
-    </div>
+    <section className="container">
+      <div className={styles.PersonalProjects}>
+        <h1 className="titulo">#ProjetosPessoais</h1>
+        <Posts />
+      </div>
+    </section>
   );
 };
 
