@@ -26,12 +26,22 @@ const Projects = () => {
   ];
 
   return (
-    <div className={styles.projects}>
-      <h2>Essa é a sessão com todos os projetos.</h2>
-      {ProjectsList.map((project, index) => (
-        <Project key={index} index={index} project={project} />
-      ))}
-    </div>
+    <section className={styles.projetoTopo}>
+      <div>
+        <h2 className={`titulo container ${styles.tituloProjetos}`}>
+          Projetos
+        </h2>
+        <div className={styles.projectsBg}>
+          <div className="container">
+            <div className={styles.projects}>
+              {ProjectsList.map((project, index) => (
+                <Project key={index} index={index} project={project} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

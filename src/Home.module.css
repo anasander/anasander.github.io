@@ -104,8 +104,8 @@
   }
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 25%,
-      var(--c1) 25% 55%,
+      transparent 0% 22%,
+      var(--c1) 22% 55%,
       transparent 55% 100%
     );
   }
@@ -143,13 +143,13 @@
 
 @media (max-width: 460px) {
   .home {
-    padding-top: 140px;
-    margin-bottom: 140px;
+    padding-top: 100px;
+    margin-bottom: 100px;
   }
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 30%,
-      var(--c1) 30% 72%,
+      transparent 0% 25%,
+      var(--c1) 25% 72%,
       transparent 72% 100%
     );
   }

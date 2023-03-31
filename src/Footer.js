@@ -4,7 +4,7 @@ import * as images from "./Components/Images/Images";
 
 const Footer = () => {
   return (
-    <section id="contact" className={styles.footer}>
+    <section className={styles.footer}>
       <div className="container">
         <h1 className="titulo">Contato</h1>
         <img src={images.email} alt="" />

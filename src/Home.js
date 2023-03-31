@@ -40,14 +40,17 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="projects">
-        <div className="container">
-          <h2 className="titulo">Projetos</h2>
-          <Projects />
-        </div>
-      </section>
+      <div id="projects">
+        <div className="space"></div>
+      </div>
 
-      <section id="education">
+      <Projects />
+
+      <div id="education">
+        <div className="space"></div>
+      </div>
+
+      <section>
         <div className="container">
           <h2 className="titulo">Formação</h2>
           <Education />
@@ -67,6 +70,10 @@ const Home = () => {
           </Link>
         </div>
       </section>
+
+      <div id="contact">
+        <div className="space"></div>
+      </div>
     </main>
   );
 };
