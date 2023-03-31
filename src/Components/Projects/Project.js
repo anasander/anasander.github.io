@@ -4,12 +4,20 @@ import styles from "./Project.module.css";
 const Project = ({ project: { title, date, img, misc } }) => {
   return (
     <div className={styles.project}>
-      <h1>{title}</h1>
-      <p>{date}</p>
-      <img src={img} alt="" />
-      {misc.map((i) => (
-        <span key={i}>{i}</span>
-      ))}
+      <div className={styles.projectBg}>
+        <div>
+          <h1 className="size32">{title}</h1>
+          <p className="size24">{date}</p>
+          <img src={img} alt="" />
+          <div className={styles.projectFlex}>
+            {misc.map((i) => (
+              <p className={`size24 ${styles.ability}`} key={i}>
+                {i}
+              </p>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

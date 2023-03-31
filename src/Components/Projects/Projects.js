@@ -12,13 +12,13 @@ const Projects = () => {
       misc: ["HTML", "CSS", "JavaScript", "React"],
     },
     {
-      title: "Dogs",
+      title: "Cats",
       date: "01/01/2001",
       img: images.dogsSquare,
       misc: ["HTML", "CSS", "JavaScript", "React"],
     },
     {
-      title: "Dogs",
+      title: "LOL",
       date: "01/01/2001",
       img: images.dogsSquare,
       misc: ["HTML", "CSS", "JavaScript", "React"],

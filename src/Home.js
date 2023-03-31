@@ -20,10 +20,10 @@ const Home = () => {
                 <div className={styles.borderBottom}>
                   <h1 className={`titulo ${styles.tituloHome}`}>Ana Sander</h1>
                 </div>
-                <p className={`sub ${styles.sub}`}>
+                <p className={`size32 ${styles.size32}`}>
                   Desenvolvedora Front-End & <br /> UI/UX Designer.
                 </p>
-                <p className={`sub ${styles.desc}`}>
+                <p className={`size32 ${styles.desc}`}>
                   Desenvolvedora Front-End utilizando{" "}
                   <span className="bold">HTML</span>,{" "}
                   <span className="bold">CSS</span>,{" "}

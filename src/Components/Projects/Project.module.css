@@ -1,0 +1,26 @@
+.project {
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.projectBg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+/* .projectBg:last-child {
+  background-color: red;
+} */
+
+.projectFlex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+}

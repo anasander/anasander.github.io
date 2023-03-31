@@ -36,8 +36,12 @@ img {
   font-size: 6.5rem;
 }
 
-.sub {
+.size32 {
   font-size: 2rem;
+}
+
+.size24 {
+  font-size: 1.5rem;
 }
 
 .bold {
@@ -93,7 +97,7 @@ img {
     font-size: 5rem;
   }
 
-  .sub {
+  .size32 {
     font-size: 1.5rem;
   }
 }
@@ -102,7 +106,7 @@ img {
   .titulo {
     font-size: 4rem;
   }
-  .sub {
+  .size32 {
     font-size: 1.2rem;
   }
 }
@@ -111,7 +115,7 @@ img {
   v .titulo {
     font-size: 2rem;
   }
-  .sub {
+  .size32 {
     font-size: 1rem;
   }
 }
