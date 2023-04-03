@@ -22,10 +22,62 @@
   top: 16px;
 }
 
+.tituloProjetos::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 200px;
+  background: url("../../Assets/catpng.png") 0 0 no-repeat;
+  animation: walkAnimation 1s steps(12), sitAnimation 0.5s 1s steps(6) forwards,
+    movement 2s forwards;
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+  overflow: hidden;
+}
+
 .projectsBg {
   background: linear-gradient(180deg, var(--c1) 0%, var(--c3) 100%);
 }
 
 .projects {
   padding: 60px 0;
+}
+
+.movement {
+  overflow: hidden;
+  animation: movement 3s forwards;
+}
+
+@keyframes walkAnimation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -2376px;
+  }
+}
+
+@keyframes sitAnimation {
+  from {
+    background-position: -400px 0;
+  }
+  to {
+    background-position: -400px -1200px;
+  }
+}
+
+@keyframes movement {
+  from {
+    margin-right: -200px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tituloProjetos::after {
+    display: none;
+  }
 }

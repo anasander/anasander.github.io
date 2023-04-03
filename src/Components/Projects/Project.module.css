@@ -1,26 +1,50 @@
 .project {
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
-  margin: 40px 0;
 }
 
 .projectBg {
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: white;
   padding: 40px;
   border-radius: 4px;
 }
 
-/* .projectBg:last-child {
-  background-color: red;
-} */
+.projectBg:first-child {
+  flex: 100%;
+}
+
+.projectBg:not(:first-child) {
+  flex: 1;
+  min-width: 680px;
+}
 
 .projectFlex {
   display: flex;
   justify-content: center;
   text-align: center;
-  text-align: center;
 }
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  color: #fff;
+  background: #000;
+  padding: 20px;
+}
+
+.card:first-child {
+  background: #e31;
+  flex: 100%;
+}
+
+.card:not(:first-child) {
+  max-width: 680px;
+  flex: 1;
+} */
