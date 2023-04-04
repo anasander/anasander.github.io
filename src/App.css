@@ -80,7 +80,7 @@ img {
 }
 
 .space {
-  height: 90px;
+  height: 1px;
 }
 
 @keyframes up {
@@ -104,18 +104,9 @@ img {
 
 @media (max-width: 551px) {
   .titulo {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .size32 {
     font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 460px) {
-  v .titulo {
-    font-size: 2rem;
-  }
-  .size32 {
-    font-size: 1rem;
   }
 }

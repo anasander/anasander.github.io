@@ -75,9 +75,6 @@
   .desc {
     margin-top: 170px;
   }
-}
-
-@media (max-width: 1375px) {
   .tituloHome::before {
     height: 4.5rem;
   }

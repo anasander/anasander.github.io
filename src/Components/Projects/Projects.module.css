@@ -6,9 +6,11 @@
   background-image: linear-gradient(180deg, var(--c1) 0%, var(--c2) 100%);
   background-clip: text;
   color: transparent;
-  padding-left: 60px;
+  padding-left: 80px;
   position: relative;
   margin-bottom: -38px;
+  overflow-x: hidden;
+  padding-top: 55px;
 }
 
 .tituloProjetos::before {
@@ -18,8 +20,8 @@
   height: 5.5rem;
   background: var(--c3);
   position: absolute;
-  left: 30px;
-  top: 16px;
+  left: 50px;
+  top: 70px;
 }
 
 .tituloProjetos::after {
@@ -33,7 +35,6 @@
   position: absolute;
   right: 30px;
   bottom: 0px;
-  overflow: hidden;
 }
 
 .projectsBg {
@@ -42,11 +43,6 @@
 
 .projects {
   padding: 60px 0;
-}
-
-.movement {
-  overflow: hidden;
-  animation: movement 3s forwards;
 }
 
 @keyframes walkAnimation {
@@ -69,15 +65,41 @@
 
 @keyframes movement {
   from {
-    margin-right: -200px;
+    right: -200px;
   }
   to {
-    margin-right: 0px;
+    right: 0px;
+  }
+}
+
+@media (max-width: 1375px) {
+  .tituloProjetos {
+    margin-bottom: -30px;
+    padding-left: 60px;
+    padding-top: 90px;
+  }
+  .tituloProjetos::before {
+    height: 4rem;
+    left: 30px;
+    top: 104px;
   }
 }
 
 @media (max-width: 800px) {
   .tituloProjetos::after {
     display: none;
+  }
+}
+
+@media (max-width: 551px) {
+  .tituloProjetos {
+    margin-bottom: -20px;
+    padding-left: 50px;
+    padding-top: 80px;
+  }
+  .tituloProjetos::before {
+    height: 2.9rem;
+    left: 20px;
+    top: 89px;
   }
 }

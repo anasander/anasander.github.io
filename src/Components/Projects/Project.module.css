@@ -26,25 +26,3 @@
   justify-content: center;
   text-align: center;
 }
-
-/* .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card {
-  color: #fff;
-  background: #000;
-  padding: 20px;
-}
-
-.card:first-child {
-  background: #e31;
-  flex: 100%;
-}
-
-.card:not(:first-child) {
-  max-width: 680px;
-  flex: 1;
-} */
