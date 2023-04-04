@@ -13,8 +13,8 @@
 
 .homeStripe {
   background: linear-gradient(
-    transparent 0% 25%,
-    var(--c1) 25% 60%,
+    transparent 0% 23%,
+    var(--c1) 23% 60%,
     transparent 60% 100%
   );
 }
@@ -83,13 +83,13 @@
 @media (max-width: 1001px) {
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 20%,
-      var(--c1) 20% 70%,
-      transparent 70% 100%
+      transparent 0% 18%,
+      var(--c1) 18% 60%,
+      transparent 60% 100%
     );
   }
   .desc {
-    margin-top: 80px;
+    margin-top: 150px;
   }
 }
 
@@ -125,13 +125,13 @@
   }
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 30%,
-      var(--c1) 30% 70%,
-      transparent 70% 100%
+      transparent 0% 20%,
+      var(--c1) 20% 50%,
+      transparent 50% 100%
     );
   }
   .desc {
-    margin-top: 120px;
+    margin-top: 300px;
   }
   .tituloHome::before {
     height: 3.5rem;
@@ -145,12 +145,12 @@
   }
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 25%,
-      var(--c1) 25% 72%,
-      transparent 72% 100%
+      transparent 0% 15%,
+      var(--c1) 15% 50%,
+      transparent 50% 100%
     );
   }
   .desc {
-    margin-top: 120px;
+    margin-top: 300px;
   }
 }

@@ -98,7 +98,10 @@ img {
   }
 
   .size32 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .size24 {
+    font-size: 1.2rem;
   }
 }
 
@@ -107,6 +110,9 @@ img {
     font-size: 3.5rem;
   }
   .size32 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .size24 {
+    font-size: 1rem;
   }
 }

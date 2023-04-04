@@ -1,18 +1,18 @@
-.project {
+/* .project {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-}
+} */
 
-.projectBg {
+/* .projectBg {
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 40px;
   border-radius: 4px;
-}
+} */
 
-.projectBg:first-child {
+/* .projectBg:first-child {
   flex: 100%;
 }
 
@@ -25,4 +25,119 @@
   display: flex;
   justify-content: center;
   text-align: center;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.card {
+  padding: 40px;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 2px rgba(43, 8, 57, 0.1);
+}
+
+.card > img {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.card1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 51.35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url(../../Assets/dogs-rectangle.png);
+}
+
+.card2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 51.35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url(../../Assets/iguanagames-rectangle.png);
+}
+
+.card3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 51.35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url(../../Assets/ultraarcade-rectangle.png);
+}
+
+.card4 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 51.35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url(../../Assets/protecc-rectangle.png);
+}
+
+.card5 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 51.35%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url(../../Assets/plushy-rectangle.png);
+}
+
+.card:first-child {
+  flex: 100%;
+}
+
+.card:not(:first-child) {
+  flex: 1;
+  flex-basis: 33%;
+}
+
+.cardTitle {
+  color: var(--w);
+  margin-bottom: 8px;
+}
+
+.cardDate {
+  color: var(--b4);
+  margin-bottom: 40px;
+}
+
+.cardImg {
+  margin-bottom: 60px;
+  border-radius: 4px;
+}
+
+.misc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.misc > p {
+  color: var(--c4);
+  background-color: var(--b2);
+  padding: 10px 20px;
+  border: 2px solid var(--b3);
+  border-radius: 100px;
 }
