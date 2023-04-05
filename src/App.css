@@ -21,6 +21,10 @@ body {
   background: var(--w);
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
 }
@@ -66,7 +70,7 @@ img {
 }
 
 .button:hover:not(:focus) {
-  box-shadow: 4px 4px 0px #000000;
+  box-shadow: 4px 4px 0px var(--bl);
   animation: up 0.1s forwards;
   transition: 0.1s;
   background: linear-gradient(180deg, var(--c3) 0%, var(--c2) 100%);

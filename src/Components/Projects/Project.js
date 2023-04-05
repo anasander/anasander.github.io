@@ -24,7 +24,10 @@ import * as images from "../Images/Images";
 const Project = () => {
   return (
     <div className={styles.container}>
-      <div className={`${styles.card1} ${styles.card}`}>
+      <a
+        href="https://github.com/anasander/dogs"
+        className={`${styles.card1} ${styles.card}`}
+      >
         <h2 className={`size32 ${styles.cardTitle}`}>Dogs</h2>
         <p className={`size24 ${styles.cardDate}`}>2023</p>
         <img src={images.dogsSquare} className={styles.cardImg} alt="Dogs" />
@@ -34,8 +37,11 @@ const Project = () => {
           <p>JavaScript</p>
           <p>React</p>
         </div>
-      </div>
-      <div className={`${styles.card2} ${styles.card}`}>
+      </a>
+      <a
+        href="https://github.com/anasander/iguana-games"
+        className={`${styles.card2} ${styles.card}`}
+      >
         <h2 className={`size32 ${styles.cardTitle}`}>Iguana Games</h2>
         <p className={`size24 ${styles.cardDate}`}>2022</p>
         <img
@@ -48,8 +54,11 @@ const Project = () => {
           <p>CSS</p>
           <p>JavaScript</p>
         </div>
-      </div>
-      <div className={`${styles.card3} ${styles.card}`}>
+      </a>
+      <a
+        href="https://github.com/anasander/ultra-arcade"
+        className={`${styles.card3} ${styles.card}`}
+      >
         <h2 className={`size32 ${styles.cardTitle}`}>Ultra Arcade</h2>
         <p className={`size24 ${styles.cardDate}`}>2022</p>
         <img
@@ -61,8 +70,11 @@ const Project = () => {
           <p>HTML</p>
           <p>CSS</p>
         </div>
-      </div>
-      <div className={`${styles.card4} ${styles.card}`}>
+      </a>
+      <a
+        href="https://github.com/anasander/protecc"
+        className={`${styles.card4} ${styles.card}`}
+      >
         <h2 className={`size32 ${styles.cardTitle}`}>ProTECC</h2>
         <p className={`size24 ${styles.cardDate}`}>2022</p>
         <img
@@ -74,8 +86,11 @@ const Project = () => {
           <p>HTML</p>
           <p>CSS</p>
         </div>
-      </div>
-      <div className={`${styles.card5} ${styles.card}`}>
+      </a>
+      <a
+        href="https://github.com/anasander/plushy"
+        className={`${styles.card5} ${styles.card}`}
+      >
         <h2 className={`size32 ${styles.cardTitle}`}>Plushy</h2>
         <p className={`size24 ${styles.cardDate}`}>2022</p>
         <img
@@ -87,7 +102,7 @@ const Project = () => {
           <p>HTML</p>
           <p>CSS</p>
         </div>
-      </div>
+      </a>
     </div>
   );
 };
