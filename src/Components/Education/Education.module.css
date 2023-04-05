@@ -1,7 +1,22 @@
+.education {
+  margin-bottom: 100px;
+}
+
 .line {
   height: 20px;
   background: var(--c1);
   margin-bottom: 40px;
+}
+
+.scrollbar {
+  height: 800px;
+  overflow: auto;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 15px;
+  background: var(--b4);
+  border-radius: 4px;
 }
 
 .tituloFormacao {
@@ -81,6 +96,12 @@
 }
 
 @media (max-width: 800px) {
+  .education {
+    margin-bottom: 50px;
+  }
+  .tituloFormacao {
+    margin-top: 20px;
+  }
   .tituloFormacao::after {
     display: none;
   }
@@ -95,6 +116,12 @@
   .tituloFormacao::before {
     height: 2.9rem;
     left: 20px;
-    top: 89px;
+    top: 90px;
+  }
+}
+
+@media (max-width: 432px) {
+  .tituloFormacao::before {
+    top: 90px;
   }
 }

@@ -162,3 +162,30 @@
     transform: translateY(-2px);
   }
 }
+
+@media (max-width: 800px) {
+  .container {
+    gap: 20px;
+  }
+  .card {
+    padding: 20px;
+  }
+  .card:not(:first-child) {
+    flex-basis: 50%;
+  }
+  .cardTitle {
+    margin-bottom: 4px;
+  }
+  .cardDate {
+    margin-bottom: 20px;
+  }
+  .cardImg {
+    margin-bottom: 30px;
+  }
+  .misc {
+    gap: 5px;
+  }
+  .misc > p {
+    padding: 5px 10px;
+  }
+}

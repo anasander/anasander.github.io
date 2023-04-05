@@ -57,10 +57,10 @@ const Education = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.education}>
       <h2 className={`titulo container ${styles.tituloFormacao}`}>Formação</h2>
       <div className={styles.line}></div>
-      <div className="padding">
+      <div className={`padding container ${styles.scrollbar}`}>
         {Ed.map((ed, index) => (
           <SingleEd key={index} index={index} ed={ed} />
         ))}

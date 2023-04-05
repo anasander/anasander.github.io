@@ -90,6 +90,24 @@ img {
   height: 1px;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+  background: var(--b4);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--b3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--b2);
+}
+
 @keyframes up {
   from {
     transform: translateY(0px);
