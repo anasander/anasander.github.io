@@ -11,7 +11,7 @@ const Home = () => {
     <main>
       <section className={styles.homeBg}>
         <div className={styles.homeStripe}>
-          <div className={`container ${styles.home}`}>
+          <div className={`container padding ${styles.home}`}>
             <div className={styles.img}>
               <img src={images.perfil} alt="" />
             </div>
@@ -51,8 +51,7 @@ const Home = () => {
       </div>
 
       <section>
-        <div className="container">
-          <h2 className="titulo">Formação</h2>
+        <div>
           <Education />
           <Languages />
         </div>

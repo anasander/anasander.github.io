@@ -1,0 +1,13 @@
+.singleEd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: start;
+  background: var(--c4);
+  border: solid 2px var(--b4);
+  border-radius: 4px;
+}
+
+.singleImg > img {
+  border-radius: 4px 0px 0px 4px;
+}

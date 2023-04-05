@@ -14,7 +14,8 @@ const Languages = () => {
   ];
 
   return (
-    <div className={styles.languages}>
+    <div className={`container ${styles.languages}`}>
+      <h2 className="titulo size32">IDIOMAS</h2>
       {Lang.map(({ language, level }, index) => (
         <div key={index} index={index}>
           <h3>{language}</h3>

@@ -1,0 +1,100 @@
+.line {
+  height: 20px;
+  background: var(--c1);
+  margin-bottom: 40px;
+}
+
+.tituloFormacao {
+  margin-top: 180px;
+  background-image: linear-gradient(180deg, var(--c1) 0%, var(--c2) 100%);
+  background-clip: text;
+  color: transparent;
+  padding-left: 80px;
+  position: relative;
+  margin-bottom: -38px;
+  overflow-x: hidden;
+  padding-top: 55px;
+}
+
+.tituloFormacao::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 5.3rem;
+  background: var(--c3);
+  position: absolute;
+  left: 50px;
+  top: 73px;
+}
+
+.tituloFormacao::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 200px;
+  background: url("../../Assets/catpng.png") 0 0 no-repeat;
+  animation: walkAnimation 1s steps(12), sitAnimation 0.5s 1s steps(6) forwards,
+    movement 2s forwards;
+  position: absolute;
+  right: 30px;
+  bottom: 2px;
+}
+
+@keyframes walkAnimation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -2376px;
+  }
+}
+
+@keyframes sitAnimation {
+  from {
+    background-position: -400px 0;
+  }
+  to {
+    background-position: -400px -1200px;
+  }
+}
+
+@keyframes movement {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@media (max-width: 1375px) {
+  .tituloFormacao {
+    margin-bottom: -30px;
+    padding-left: 60px;
+    padding-top: 90px;
+  }
+  .tituloFormacao::before {
+    height: 4rem;
+    left: 30px;
+    top: 104px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tituloFormacao::after {
+    display: none;
+  }
+}
+
+@media (max-width: 551px) {
+  .tituloFormacao {
+    margin-bottom: -20px;
+    padding-left: 50px;
+    padding-top: 80px;
+  }
+  .tituloFormacao::before {
+    height: 2.9rem;
+    left: 20px;
+    top: 89px;
+  }
+}

@@ -86,6 +86,9 @@
 }
 
 @media (max-width: 800px) {
+  .projetoTopo {
+    margin-top: 20px;
+  }
   .tituloProjetos::after {
     display: none;
   }
@@ -100,6 +103,6 @@
   .tituloProjetos::before {
     height: 2.9rem;
     left: 20px;
-    top: 89px;
+    top: 90px;
   }
 }

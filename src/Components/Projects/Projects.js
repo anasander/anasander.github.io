@@ -32,7 +32,7 @@ const Projects = () => {
     <section className={styles.projetoTopo}>
       <h2 className={`titulo container ${styles.tituloProjetos}`}>Projetos</h2>
       <div className={styles.projectsBg}>
-        <div className="container">
+        <div className="container padding">
           <div className={styles.projects}>
             <Project />
             {/* {ProjectsList.map((project, index) => (
