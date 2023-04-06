@@ -4,9 +4,21 @@ import styles from "./PersonalProjects.module.css";
 
 const PersonalProjects = () => {
   return (
-    <section className="container">
-      <div className={styles.PersonalProjects}>
-        <h1 className="titulo">#ProjetosPessoais</h1>
+    <section>
+      <div className={styles.perBg}>
+        <div className={styles.personalProjects}>
+          <h1 className={`titulo container ${styles.tituloPer}`}>
+            #ProjetosPessoais
+          </h1>
+          <div className={styles.perDesc}>
+            <p className="container padding">
+              Atualizações de GameDev, ilustrações, pixel art, projetos avulsos,
+              tudo num único lugar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container padding">
         <Posts />
       </div>
     </section>

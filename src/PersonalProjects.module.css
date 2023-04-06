@@ -1,0 +1,17 @@
+.perBg {
+  background: url(./Assets/trianglesBg.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.personalProjects {
+  padding-top: 200px;
+  margin-bottom: 140px;
+}
+
+/* .perDesc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+} */
