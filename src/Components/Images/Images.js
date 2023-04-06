@@ -17,5 +17,6 @@ export { default as linkedin } from "../../Assets/linkedin.svg";
 export { default as github } from "../../Assets/github.svg";
 export { default as twitter } from "../../Assets/twitter.svg";
 export { default as instagram } from "../../Assets/instagram.svg";
+export { default as catsit } from "../../Assets/catsit.svg";
 export { default as perfil } from "../../Assets/foto-intro.png";
 export { default as logo } from "../../Assets/logo-transparent.svg";
