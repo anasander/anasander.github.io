@@ -57,16 +57,18 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="container">
-          <h2>#ProjetosPessoais</h2>
-          <p>
+      <section className="padding container">
+        <div className={styles.proPe}>
+          <h2 className="size24">#ProjetosPessoais</h2>
+          <p className="size32">
             Quer conhecer um pouco mais sobre mim e minhas paixões? Só clicar no
             botão abaixo e descobrir:
           </p>
-          <Link to="/projetos-pessoais" className="button">
-            Clique Aqui
-          </Link>
+          <div className={styles.proBtn}>
+            <Link to="/projetos-pessoais" className="button size32">
+              Clique Aqui
+            </Link>
+          </div>
         </div>
       </section>
 
