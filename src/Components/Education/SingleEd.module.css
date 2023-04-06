@@ -5,10 +5,19 @@
   background: var(--c4);
   border: solid 2px var(--b4);
   border-radius: 4px;
+  transition: 0.3s;
 }
 
 .singleEd:last-child {
   margin-bottom: 0px;
+}
+
+.singleEd:hover {
+  background: var(--w);
+}
+
+.singleEd:active {
+  background-color: var(--c4);
 }
 
 .singleImg > img {

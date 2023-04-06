@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./SingleEd.module.css";
 
-const SingleEd = ({ ed: { img, title, date, sub, desc } }) => {
+const SingleEd = ({ ed: { img, title, date, sub, desc, href } }) => {
   return (
-    <div className={styles.singleEd}>
+    <a href={href} className={styles.singleEd}>
       <div className={styles.singleImg}>
         <img src={img} alt="" />
       </div>
@@ -15,7 +15,7 @@ const SingleEd = ({ ed: { img, title, date, sub, desc } }) => {
         <p className={`size32 ${styles.edp1}`}>{sub}</p>
         <p className={`size24 ${styles.edp2}`}>{desc}</p>
       </div>
-    </div>
+    </a>
   );
 };
 

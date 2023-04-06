@@ -11,6 +11,7 @@ const Education = () => {
       date: "03/2023",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/2b78ee94",
     },
     {
       img: images.origamidJS,
@@ -18,6 +19,7 @@ const Education = () => {
       date: "12/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/59db0af3",
     },
     {
       img: images.origamidUIav,
@@ -25,6 +27,7 @@ const Education = () => {
       date: "09/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/5dfd8aea",
     },
     {
       img: images.origamidCSSg,
@@ -32,6 +35,7 @@ const Education = () => {
       date: "08/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/92c75565",
     },
     {
       img: images.origamidCSSf,
@@ -39,6 +43,7 @@ const Education = () => {
       date: "08/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/d19c000c",
     },
     {
       img: images.origamidHTMLCSS,
@@ -46,6 +51,7 @@ const Education = () => {
       date: "08/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/51435d55",
     },
     {
       img: images.origamidUIi,
@@ -53,6 +59,7 @@ const Education = () => {
       date: "07/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/9d4e5c13",
     },
   ];
 
