@@ -14,14 +14,16 @@ const Languages = () => {
   ];
 
   return (
-    <div className={`container ${styles.languages}`}>
-      <h2 className="titulo size32">IDIOMAS</h2>
-      {Lang.map(({ language, level }, index) => (
-        <div key={index} index={index}>
-          <h3>{language}</h3>
-          <span>{level}</span>
-        </div>
-      ))}
+    <div className={styles.languages}>
+      <div className={"container2 padding"}>
+        <h2 className={`titulo ${styles.langTitle}`}>IDIOMAS</h2>
+        {Lang.map(({ language, level }, index) => (
+          <div className={styles.langFlex} key={index} index={index}>
+            <h3>{language}</h3>
+            <span>{level}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

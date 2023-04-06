@@ -95,6 +95,12 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .scrollbar {
+    margin-right: 20px;
+  }
+}
+
 @media (max-width: 800px) {
   .education {
     margin-bottom: 50px;
@@ -104,6 +110,9 @@
   }
   .tituloFormacao::after {
     display: none;
+  }
+  .scrollbar {
+    height: 500px;
   }
 }
 

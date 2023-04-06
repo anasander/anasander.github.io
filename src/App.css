@@ -34,6 +34,11 @@ img {
   margin: 0 auto;
 }
 
+.container2 {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 .padding {
   padding: 0 20px;
 }
