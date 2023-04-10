@@ -4,7 +4,7 @@ import * as images from "./Components/Images/Images";
 
 const Footer = () => {
   return (
-    <section>
+    <section aria-label="Contato">
       <h1 className={`titulo container ${styles.tituloContato}`}>Contato</h1>
       <div className={styles.footer}>
         <div className="container padding">

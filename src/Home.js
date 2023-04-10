@@ -8,7 +8,7 @@ import * as images from "./Components/Images/Images";
 
 const Home = () => {
   return (
-    <main>
+    <main aria-label="Página Principal">
       <section className={styles.homeBg}>
         <div className={styles.homeStripe}>
           <div className={`container padding ${styles.home}`}>
@@ -31,10 +31,11 @@ const Home = () => {
                     <span className="bold">JavaScript</span> e{" "}
                     <span className="bold">React</span>, e desenvolvi projetos
                     como a loja de pelúcias{" "}
-                    <span className="bold b2">Plushy</span>, a loja de E-Sports{" "}
-                    <span className="bold b2">Ultra Arcade</span> e também a
-                    loja de games <span className="bold b2">Iguana Games</span>,
-                    sendo responsável pelo UI/UX Design dos mesmos.
+                    <span className="bold b2">Plushy</span>, o site do time de
+                    E-Sports <span className="bold b2">Ultra Arcade</span> e
+                    também a loja de games{" "}
+                    <span className="bold b2">Iguana Games</span>, sendo
+                    responsável pelo UI/UX Design dos mesmos.
                   </p>
                 </div>
               </div>

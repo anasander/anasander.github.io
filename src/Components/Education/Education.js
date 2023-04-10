@@ -47,7 +47,7 @@ const Education = () => {
     },
     {
       img: images.origamidHTMLCSS,
-      title: "HTML & CSS Básico",
+      title: "HTML & CSS para Iniciantes",
       date: "08/2022",
       sub: "Origamid",
       desc: "Curso Web Design, UX/UI Design & Front-End",
@@ -64,15 +64,19 @@ const Education = () => {
   ];
 
   return (
-    <div className={styles.education}>
-      <h2 className={`titulo container ${styles.tituloFormacao}`}>Formação</h2>
-      <div className={styles.line}></div>
-      <div className={`padding container ${styles.scrollbar}`}>
-        {Ed.map((ed, index) => (
-          <SingleEd key={index} index={index} ed={ed} />
-        ))}
+    <section aria-label="Formação">
+      <div className={styles.education}>
+        <h2 className={`titulo container ${styles.tituloFormacao}`}>
+          Formação
+        </h2>
+        <div className={styles.line}></div>
+        <div className={`padding container ${styles.scrollbar}`}>
+          {Ed.map((ed, index) => (
+            <SingleEd key={index} index={index} ed={ed} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

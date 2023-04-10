@@ -4,7 +4,7 @@ import styles from "./PersonalProjects.module.css";
 
 const PersonalProjects = () => {
   return (
-    <section>
+    <section aria-label="Página de Projetos Pessoais">
       <div className={styles.perBg}>
         <div className={styles.personalProjects}>
           <div className={styles.titleBG}>
