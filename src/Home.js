@@ -20,20 +20,23 @@ const Home = () => {
                 <div className={styles.borderBottom}>
                   <h1 className={`titulo ${styles.tituloHome}`}>Ana Sander</h1>
                 </div>
-                <p className={`size32 ${styles.size32}`}>
+                <p className={`size32 ${styles.subtitulo}`}>
                   Desenvolvedora Front-End & <br /> UI/UX Designer.
                 </p>
-                <p className={`size32 ${styles.desc}`}>
-                  Desenvolvedora Front-End utilizando{" "}
-                  <span className="bold">HTML</span>,{" "}
-                  <span className="bold">CSS</span>,{" "}
-                  <span className="bold">JavaScript</span> e{" "}
-                  <span className="bold">React</span>, como os projetos{" "}
-                  <span className="bold b2">Plushy</span>,{" "}
-                  <span className="bold b2">Ultra Arcade</span> e{" "}
-                  <span className="bold b2">Iguana Games</span>, sendo
-                  responsável pelo UI/UX Design dos mesmos.
-                </p>
+                <div className={`size32 ${styles.desc}`}>
+                  <p>Front-End Dev localizada em Belo Horizonte/MG 🍞🧀.</p>
+                  <p>
+                    Possuo conhecimentos em <span className="bold">HTML</span>,{" "}
+                    <span className="bold">CSS</span>,{" "}
+                    <span className="bold">JavaScript</span> e{" "}
+                    <span className="bold">React</span>, e desenvolvi projetos
+                    como a loja de pelúcias{" "}
+                    <span className="bold b2">Plushy</span>, a loja de E-Sports{" "}
+                    <span className="bold b2">Ultra Arcade</span> e também a
+                    loja de games <span className="bold b2">Iguana Games</span>,
+                    sendo responsável pelo UI/UX Design dos mesmos.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

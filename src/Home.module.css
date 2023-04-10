@@ -14,8 +14,8 @@
 .homeStripe {
   background: linear-gradient(
     transparent 0% 23%,
-    var(--c1) 23% 60%,
-    transparent 60% 100%
+    var(--c1) 23% 55%,
+    transparent 55% 100%
   );
 }
 
@@ -50,7 +50,7 @@
   border-bottom: solid 2px var(--c2);
 }
 
-.size32 {
+.subtitulo {
   color: var(--b4);
   padding-top: 20px;
 }
@@ -58,6 +58,10 @@
 .desc {
   color: var(--b3);
   margin-top: 200px;
+}
+
+.desc > p:first-child {
+  margin-bottom: 20px;
 }
 
 .proPe {
@@ -92,6 +96,13 @@
     padding-top: 150px;
     grid-template-columns: 450px 1fr;
   }
+  .homeStripe {
+    background: linear-gradient(
+      transparent 0% 15%,
+      var(--c1) 15% 45%,
+      transparent 45% 100%
+    );
+  }
   .img {
     max-width: 400px;
   }
@@ -100,7 +111,7 @@
     margin-left: 0px;
   }
   .desc {
-    margin-top: 170px;
+    margin-top: 300px;
   }
   .tituloHome::before {
     height: 4.5rem;
@@ -110,13 +121,13 @@
 @media (max-width: 1001px) {
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 18%,
-      var(--c1) 18% 60%,
-      transparent 60% 100%
+      transparent 0% 12%,
+      var(--c1) 12% 45%,
+      transparent 45% 100%
     );
   }
   .desc {
-    margin-top: 150px;
+    margin-top: 350px;
   }
 }
 
@@ -128,9 +139,9 @@
   }
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 22%,
-      var(--c1) 22% 55%,
-      transparent 55% 100%
+      transparent 0% 15%,
+      var(--c1) 15% 35%,
+      transparent 35% 100%
     );
   }
   .img > img {
@@ -141,7 +152,7 @@
     margin-left: 0px;
   }
   .desc {
-    margin-top: 350px;
+    margin-top: 600px;
   }
 }
 
@@ -165,13 +176,13 @@
   }
   .homeStripe {
     background: linear-gradient(
-      transparent 0% 20%,
-      var(--c1) 20% 50%,
-      transparent 50% 100%
+      transparent 0% 15%,
+      var(--c1) 15% 40%,
+      transparent 40% 100%
     );
   }
   .desc {
-    margin-top: 300px;
+    margin-top: 400px;
   }
   .tituloHome::before {
     height: 3.5rem;
@@ -186,11 +197,8 @@
   .homeStripe {
     background: linear-gradient(
       transparent 0% 15%,
-      var(--c1) 15% 50%,
-      transparent 50% 100%
+      var(--c1) 15% 40%,
+      transparent 40% 100%
     );
-  }
-  .desc {
-    margin-top: 300px;
   }
 }

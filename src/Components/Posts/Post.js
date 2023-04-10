@@ -1,13 +1,16 @@
 import React from "react";
 import styles from "./Post.module.css";
 
-const Post = ({ post: { title, date, body, img } }) => {
+const Post = ({ post: { sub, title, date, body, img } }) => {
   return (
     <div className={styles.post}>
-      <h1>{title}</h1>
-      <p>{date}</p>
-      <p>{body}</p>
-      <div>
+      <div className={styles.flex}>
+        <p className="size24">{sub}</p>
+        <p className="size24">{date}</p>
+      </div>
+      <h1 className={`size32 ${styles.titlePost}`}>{title}</h1>
+      <p className={`size24 ${styles.body}`}>{body}</p>
+      <div className={styles.img}>
         {img.map((i) => (
           <img src={i} alt="" key={i} />
         ))}
