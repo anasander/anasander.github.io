@@ -7,11 +7,15 @@ const PersonalProjects = () => {
     <section>
       <div className={styles.perBg}>
         <div className={styles.personalProjects}>
-          <h1 className={`titulo container ${styles.tituloPer}`}>
-            #ProjetosPessoais
-          </h1>
+          <div className={styles.titleBG}>
+            <h1 className={`titulo container padding ${styles.tituloPer}`}>
+              #Projetos
+              <br className={styles.break} />
+              Pessoais
+            </h1>
+          </div>
           <div className={styles.perDesc}>
-            <p className="container padding">
+            <p className="container padding size32">
               Atualizações de GameDev, ilustrações, pixel art, projetos avulsos,
               tudo num único lugar.
             </p>
