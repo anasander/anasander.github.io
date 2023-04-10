@@ -8,7 +8,7 @@ import ScrollTop from "./Components/ScrollTop/ScrollTop";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <main>
         <ScrollTop />
