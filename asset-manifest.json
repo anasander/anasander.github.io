@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4ee136f9.css",
-    "main.js": "/portfolio/static/js/main.a8efdf5e.js",
+    "main.js": "/portfolio/static/js/main.47da938c.js",
     "static/media/suits-cover.png": "/portfolio/static/media/suits-cover.757cc4e7933d38082aeb.png",
     "static/media/iguanagames-rectangle.png": "/portfolio/static/media/iguanagames-rectangle.823c16c23833243e9429.png",
     "static/media/foto-intro.png": "/portfolio/static/media/foto-intro.695e036760f933872c33.png",
@@ -40,10 +40,10 @@
     "static/media/email.svg": "/portfolio/static/media/email.0652adbb4a474c680a27d3c00e9230bf.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9465c3ae6655deb391543514984b607e.svg",
     "main.4ee136f9.css.map": "/portfolio/static/css/main.4ee136f9.css.map",
-    "main.a8efdf5e.js.map": "/portfolio/static/js/main.a8efdf5e.js.map"
+    "main.47da938c.js.map": "/portfolio/static/js/main.47da938c.js.map"
   },
   "entrypoints": [
     "static/css/main.4ee136f9.css",
-    "static/js/main.a8efdf5e.js"
+    "static/js/main.47da938c.js"
   ]
 }
