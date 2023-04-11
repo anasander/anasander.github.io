@@ -14,7 +14,6 @@ const Project = () => {
           <p className={`size24 ${styles.cardDate}`}>2023</p>
           <img src={images.dogsSquare} className={styles.cardImg} alt="Dogs" />
           <div className={`size24 ${styles.misc}`}>
-            <p>UI/UX</p>
             <p>HTML</p>
             <p>CSS</p>
             <p>JavaScript</p>
