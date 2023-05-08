@@ -39,6 +39,23 @@ const Project = () => {
           </div>
         </a>
         <a
+          href="https://github.com/anasander/hi-fi-rush"
+          className={`${styles.card4} ${styles.card}`}
+        >
+          <h2 className={`size32 ${styles.cardTitle}`}>Hi-Fi-Rush</h2>
+          <p className={`size24 ${styles.cardDate}`}>2023</p>
+          <img
+            src={images.hifirushSquare}
+            className={styles.cardImg}
+            alt="Hi-Fi-Rush"
+          />
+          <div className={`size24 ${styles.misc}`}>
+            <p>UI/UX</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
+        </a>
+        <a
           href="https://github.com/anasander/ultra-arcade"
           className={`${styles.card3} ${styles.card}`}
         >
@@ -48,23 +65,6 @@ const Project = () => {
             src={images.ultraSquare}
             className={styles.cardImg}
             alt="Ultra Arcade"
-          />
-          <div className={`size24 ${styles.misc}`}>
-            <p>UI/UX</p>
-            <p>HTML</p>
-            <p>CSS</p>
-          </div>
-        </a>
-        <a
-          href="https://github.com/anasander/protecc"
-          className={`${styles.card4} ${styles.card}`}
-        >
-          <h2 className={`size32 ${styles.cardTitle}`}>ProTECC</h2>
-          <p className={`size24 ${styles.cardDate}`}>2022</p>
-          <img
-            src={images.proteccSquare}
-            className={styles.cardImg}
-            alt="ProTECC"
           />
           <div className={`size24 ${styles.misc}`}>
             <p>UI/UX</p>

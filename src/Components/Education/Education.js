@@ -6,6 +6,14 @@ import SingleEd from "./SingleEd";
 const Education = () => {
   const Ed = [
     {
+      img: images.origamidTipoa,
+      title: "Tipografia Avançada",
+      date: "05/2023",
+      sub: "Origamid",
+      desc: "Curso Web Design, UX/UI Design & Front-End",
+      href: "https://origamid.com/certificate/19a187e4",
+    },
+    {
       img: images.origamidReact,
       title: "React Completo",
       date: "03/2023",
