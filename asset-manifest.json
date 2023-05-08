@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4ee136f9.css",
-    "main.js": "/portfolio/static/js/main.47da938c.js",
+    "main.css": "/portfolio/static/css/main.37fb178a.css",
+    "main.js": "/portfolio/static/js/main.6e0a784d.js",
     "static/media/suits-cover.png": "/portfolio/static/media/suits-cover.757cc4e7933d38082aeb.png",
     "static/media/iguanagames-rectangle.png": "/portfolio/static/media/iguanagames-rectangle.823c16c23833243e9429.png",
     "static/media/foto-intro.png": "/portfolio/static/media/foto-intro.695e036760f933872c33.png",
-    "static/media/protecc-rectangle.png": "/portfolio/static/media/protecc-rectangle.105ba103c3502ad0b295.png",
+    "static/media/hifirush-rectangle.png": "/portfolio/static/media/hifirush-rectangle.035edbbfacba58f1ba47.png",
     "static/media/projeto5.png": "/portfolio/static/media/projeto5.35a35e424761799068e7.png",
     "static/media/projeto1.png": "/portfolio/static/media/projeto1.149d41ca4a8df2c29059.png",
     "static/media/projeto4.png": "/portfolio/static/media/projeto4.e631d63be3ceca481d71.png",
@@ -23,12 +23,13 @@
     "static/media/origamid-UIav.png": "/portfolio/static/media/origamid-UIav.d3e0052813e8443e7887.png",
     "static/media/origamid-css-g.png": "/portfolio/static/media/origamid-css-g.ecebcb2f1e3754e8950c.png",
     "static/media/origamid-css-f.png": "/portfolio/static/media/origamid-css-f.756ced40fcbf32989336.png",
+    "static/media/origamid-tipografia-a.png": "/portfolio/static/media/origamid-tipografia-a.a1b61e58fcd2399e69d4.png",
+    "static/media/hifirush-square.png": "/portfolio/static/media/hifirush-square.a6e62337a9e44611505f.png",
     "static/media/projpess.png": "/portfolio/static/media/projpess.5eb56b817ef5d16e031c.png",
     "static/media/dogs-square.png": "/portfolio/static/media/dogs-square.2a669fe3c8978234d365.png",
     "static/media/catsit.svg": "/portfolio/static/media/catsit.97f5ab8e2e8844127f15a64fa4eaead1.svg",
     "static/media/lysandra.png": "/portfolio/static/media/lysandra.c73239553a800cee1865.png",
     "static/media/catpng.png": "/portfolio/static/media/catpng.cb2697de10f06d2866ba.png",
-    "static/media/protecc-square.png": "/portfolio/static/media/protecc-square.d7667cdd8dd8e58b969a.png",
     "static/media/trianglesBg.svg": "/portfolio/static/media/trianglesBg.91dedc2fc91fab5f27d7.svg",
     "static/media/ultraarcade-square.png": "/portfolio/static/media/ultraarcade-square.b7cd8b4bf7b43fd9cb7f.png",
     "static/media/plushy-square.png": "/portfolio/static/media/plushy-square.9d622575665c400ffcec.png",
@@ -39,11 +40,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/email.svg": "/portfolio/static/media/email.0652adbb4a474c680a27d3c00e9230bf.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9465c3ae6655deb391543514984b607e.svg",
-    "main.4ee136f9.css.map": "/portfolio/static/css/main.4ee136f9.css.map",
-    "main.47da938c.js.map": "/portfolio/static/js/main.47da938c.js.map"
+    "main.37fb178a.css.map": "/portfolio/static/css/main.37fb178a.css.map",
+    "main.6e0a784d.js.map": "/portfolio/static/js/main.6e0a784d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ee136f9.css",
-    "static/js/main.47da938c.js"
+    "static/css/main.37fb178a.css",
+    "static/js/main.6e0a784d.js"
   ]
 }
