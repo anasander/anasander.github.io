@@ -3,7 +3,7 @@ import styles from "./SingleEd.module.css";
 
 const SingleEd = ({ ed: { img, title, date, sub, desc, href } }) => {
   return (
-    <a href={href} className={styles.singleEd}>
+    <a href={href} rel="noreferrer" target="_blank" className={styles.singleEd}>
       <div className={styles.singleImg}>
         <img src={img} alt="" />
       </div>

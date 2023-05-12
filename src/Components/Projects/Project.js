@@ -8,6 +8,8 @@ const Project = () => {
       <div className={styles.container}>
         <a
           href="https://github.com/anasander/dogs"
+          rel="noreferrer"
+          target="_blank"
           className={`${styles.card1} ${styles.card}`}
         >
           <h2 className={`size32 ${styles.cardTitle}`}>Dogs</h2>
@@ -22,6 +24,8 @@ const Project = () => {
         </a>
         <a
           href="https://github.com/anasander/iguana-games"
+          rel="noreferrer"
+          target="_blank"
           className={`${styles.card2} ${styles.card}`}
         >
           <h2 className={`size32 ${styles.cardTitle}`}>Iguana Games</h2>
@@ -40,6 +44,8 @@ const Project = () => {
         </a>
         <a
           href="https://github.com/anasander/hi-fi-rush"
+          rel="noreferrer"
+          target="_blank"
           className={`${styles.card4} ${styles.card}`}
         >
           <h2 className={`size32 ${styles.cardTitle}`}>Hi-Fi-Rush</h2>
@@ -57,6 +63,8 @@ const Project = () => {
         </a>
         <a
           href="https://github.com/anasander/ultra-arcade"
+          rel="noreferrer"
+          target="_blank"
           className={`${styles.card3} ${styles.card}`}
         >
           <h2 className={`size32 ${styles.cardTitle}`}>Ultra Arcade</h2>
@@ -74,6 +82,8 @@ const Project = () => {
         </a>
         <a
           href="https://github.com/anasander/plushy"
+          rel="noreferrer"
+          target="_blank"
           className={`${styles.card5} ${styles.card}`}
         >
           <h2 className={`size32 ${styles.cardTitle}`}>Plushy</h2>

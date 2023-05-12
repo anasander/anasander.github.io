@@ -15,21 +15,32 @@ const Footer = () => {
             <a
               className={styles.redesLink}
               href="https://www.linkedin.com/in/ana-gabriela-sander-morais-ivatio-b2302019b/"
+              rel="noreferrer"
+              target="_blank"
             >
               <img src={images.linkedin} alt="LinkedIn" />
             </a>
-            <a className={styles.redesLink} href="https://github.com/anasander">
+            <a
+              className={styles.redesLink}
+              href="https://github.com/anasander"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img src={images.github} alt="GitHub" />
             </a>
             <a
               className={styles.redesLink}
               href="https://twitter.com/LadySander"
+              rel="noreferrer"
+              target="_blank"
             >
               <img src={images.twitter} alt="Twitter" />
             </a>
             <a
               className={styles.redesLink}
               href="https://www.instagram.com/anasander/"
+              rel="noreferrer"
+              target="_blank"
             >
               <img src={images.instagram} alt="Intagram" />
             </a>
