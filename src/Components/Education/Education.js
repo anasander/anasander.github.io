@@ -7,8 +7,7 @@ const Education = () => {
   const Ed = [
     {
       img: images.googleUXempatia,
-      title:
-        "Iniciar o processo de design de UX: criar empatia, definir e idealizar",
+      title: "Iniciar o processo de design de UX",
       date: "07/2023",
       sub: "Google/Coursera",
       desc: "Certificado Profissional de UX Design",
@@ -16,7 +15,7 @@ const Education = () => {
     },
     {
       img: images.googleUXfundamentos,
-      title: "Fundamentos do design da experiência do usuário (UX)",
+      title: "Fundamentos do design UX",
       date: "06/2023",
       sub: "Google/Coursera",
       desc: "Certificado Profissional de UX Design",
