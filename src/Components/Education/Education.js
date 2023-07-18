@@ -6,6 +6,23 @@ import SingleEd from "./SingleEd";
 const Education = () => {
   const Ed = [
     {
+      img: images.googleUXempatia,
+      title:
+        "Iniciar o processo de design de UX: criar empatia, definir e idealizar",
+      date: "07/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/JMGMHQA4TAER",
+    },
+    {
+      img: images.googleUXfundamentos,
+      title: "Fundamentos do design da experiência do usuário (UX)",
+      date: "06/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/VBZ6B3WMX3TL",
+    },
+    {
       img: images.origamidTipoa,
       title: "Tipografia Avançada",
       date: "05/2023",

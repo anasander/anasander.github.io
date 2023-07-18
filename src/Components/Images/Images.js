@@ -13,6 +13,8 @@ export { default as origamidCSSg } from "../../Assets/origamid-css-g.png";
 export { default as origamidUIi } from "../../Assets/origamid-UIi.png";
 export { default as origamidUIav } from "../../Assets/origamid-UIav.png";
 export { default as origamidTipoa } from "../../Assets/origamid-tipografia-a.png";
+export { default as googleUXfundamentos } from "../../Assets/google-ux-fundamentos.png";
+export { default as googleUXempatia } from "../../Assets/google-ux-empatia-definir-idealizar.png";
 export { default as email } from "../../Assets/email.svg";
 export { default as linkedin } from "../../Assets/linkedin.svg";
 export { default as github } from "../../Assets/github.svg";
