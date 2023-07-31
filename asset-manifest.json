@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.37fb178a.css",
-    "main.js": "/portfolio/static/js/main.6e0a784d.js",
+    "main.js": "/portfolio/static/js/main.04abec28.js",
     "static/media/suits-cover.png": "/portfolio/static/media/suits-cover.757cc4e7933d38082aeb.png",
     "static/media/iguanagames-rectangle.png": "/portfolio/static/media/iguanagames-rectangle.823c16c23833243e9429.png",
     "static/media/foto-intro.png": "/portfolio/static/media/foto-intro.695e036760f933872c33.png",
@@ -14,6 +14,9 @@
     "static/media/ultraarcade-rectangle.png": "/portfolio/static/media/ultraarcade-rectangle.9aee9653db0d4078cac8.png",
     "static/media/totofamily.png": "/portfolio/static/media/totofamily.70ceb08f0e3f7afe2069.png",
     "static/media/plushy-rectangle.png": "/portfolio/static/media/plushy-rectangle.b9f2b21d4615679d1c04.png",
+    "static/media/google-ux-empatia-definir-idealizar.png": "/portfolio/static/media/google-ux-empatia-definir-idealizar.be1736881dc054e5964f.png",
+    "static/media/google-ux-fundamentos.png": "/portfolio/static/media/google-ux-fundamentos.7c3143844a7cd9c786d9.png",
+    "static/media/google-ux-wireframes-prototipos.png": "/portfolio/static/media/google-ux-wireframes-prototipos.648ced41cb81cad5e4a5.png",
     "static/media/projeto3.png": "/portfolio/static/media/projeto3.7c1a4e8d55a63db07bf0.png",
     "static/media/iguanagames-square.png": "/portfolio/static/media/iguanagames-square.d3ed56c6125cbeadaf41.png",
     "static/media/origamid-js.png": "/portfolio/static/media/origamid-js.20e167791f20edc8f67b.png",
@@ -41,10 +44,10 @@
     "static/media/email.svg": "/portfolio/static/media/email.0652adbb4a474c680a27d3c00e9230bf.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9465c3ae6655deb391543514984b607e.svg",
     "main.37fb178a.css.map": "/portfolio/static/css/main.37fb178a.css.map",
-    "main.6e0a784d.js.map": "/portfolio/static/js/main.6e0a784d.js.map"
+    "main.04abec28.js.map": "/portfolio/static/js/main.04abec28.js.map"
   },
   "entrypoints": [
     "static/css/main.37fb178a.css",
-    "static/js/main.6e0a784d.js"
+    "static/js/main.04abec28.js"
   ]
 }
