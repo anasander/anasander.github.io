@@ -6,6 +6,14 @@ import SingleEd from "./SingleEd";
 const Education = () => {
   const Ed = [
     {
+      img: images.googleUXwireframesPrototipos,
+      title: "Criar wireframes e prototipos",
+      date: "07/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/GD XERL49CUVF",
+    },
+    {
       img: images.googleUXempatia,
       title: "Iniciar o processo de design de UX",
       date: "07/2023",
