@@ -30,6 +30,14 @@ const Education = () => {
       href: "https://coursera.org/verify/VBZ6B3WMX3TL",
     },
     {
+      img: images.scrumProfCert,
+      title: "Certificado Profissional SCRUM",
+      date: "06/2023",
+      sub: "CertiProf",
+      desc: "Certificado Profissional SFPC",
+      href: "https://www.credly.com/badges/e50edbdb-e498-4053-8e43-56c6ff2f577b/linked_in_profile",
+    },
+    {
       img: images.origamidTipoa,
       title: "Tipografia Avançada",
       date: "05/2023",
