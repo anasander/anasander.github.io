@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.37fb178a.css",
-    "main.js": "/portfolio/static/js/main.04abec28.js",
+    "main.js": "/portfolio/static/js/main.d9429efa.js",
     "static/media/suits-cover.png": "/portfolio/static/media/suits-cover.757cc4e7933d38082aeb.png",
     "static/media/iguanagames-rectangle.png": "/portfolio/static/media/iguanagames-rectangle.823c16c23833243e9429.png",
     "static/media/foto-intro.png": "/portfolio/static/media/foto-intro.695e036760f933872c33.png",
@@ -29,6 +29,7 @@
     "static/media/origamid-tipografia-a.png": "/portfolio/static/media/origamid-tipografia-a.a1b61e58fcd2399e69d4.png",
     "static/media/hifirush-square.png": "/portfolio/static/media/hifirush-square.a6e62337a9e44611505f.png",
     "static/media/projpess.png": "/portfolio/static/media/projpess.5eb56b817ef5d16e031c.png",
+    "static/media/scrum-profcert.png": "/portfolio/static/media/scrum-profcert.0c21291946521038a95d.png",
     "static/media/dogs-square.png": "/portfolio/static/media/dogs-square.2a669fe3c8978234d365.png",
     "static/media/catsit.svg": "/portfolio/static/media/catsit.97f5ab8e2e8844127f15a64fa4eaead1.svg",
     "static/media/lysandra.png": "/portfolio/static/media/lysandra.c73239553a800cee1865.png",
@@ -44,10 +45,10 @@
     "static/media/email.svg": "/portfolio/static/media/email.0652adbb4a474c680a27d3c00e9230bf.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9465c3ae6655deb391543514984b607e.svg",
     "main.37fb178a.css.map": "/portfolio/static/css/main.37fb178a.css.map",
-    "main.04abec28.js.map": "/portfolio/static/js/main.04abec28.js.map"
+    "main.d9429efa.js.map": "/portfolio/static/js/main.d9429efa.js.map"
   },
   "entrypoints": [
     "static/css/main.37fb178a.css",
-    "static/js/main.04abec28.js"
+    "static/js/main.d9429efa.js"
   ]
 }
