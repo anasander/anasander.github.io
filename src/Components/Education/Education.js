@@ -6,12 +6,52 @@ import SingleEd from "./SingleEd";
 const Education = () => {
   const Ed = [
     {
+      img: images.googleUXdesignfinal,
+      title: "Google UX Design",
+      date: "10/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/professional-cert/3NM2Z99TSDY9",
+    },
+    {
+      img: images.googleUXbemsocial,
+      title: "Design para Bem Social",
+      date: "10/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/9KDA287DHMQH",
+    },
+    {
+      img: images.googleUXwebdesign,
+      title: "Web Design Resposivo",
+      date: "09/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/CLRHU8Q88DWN",
+    },
+    {
+      img: images.googleUXcriardesigns,
+      title: "Criar Designs Hi-Fi",
+      date: "09/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/88962XCAT3PN",
+    },
+    {
+      img: images.googleUXpesquisas,
+      title: "Conduzir pesquisas UX",
+      date: "08/2023",
+      sub: "Google/Coursera",
+      desc: "Certificado Profissional de UX Design",
+      href: "https://coursera.org/verify/8LCHW7S2VGVD",
+    },
+    {
       img: images.googleUXwireframesPrototipos,
       title: "Criar wireframes e prototipos",
       date: "07/2023",
       sub: "Google/Coursera",
       desc: "Certificado Profissional de UX Design",
-      href: "https://coursera.org/verify/GD XERL49CUVF",
+      href: "https://coursera.org/verify/GDXERL49CUVF",
     },
     {
       img: images.googleUXempatia,
