@@ -12,6 +12,7 @@ const Footer = () => {
             <a className={styles.redesLink} href="mailto: anagsander@gmail.com">
               <img src={images.email} alt="E-mail" />
             </a>
+
             <a
               className={styles.redesLink}
               href="https://www.linkedin.com/in/ana-gabriela-sander-morais-ivatio-b2302019b/"
@@ -20,6 +21,7 @@ const Footer = () => {
             >
               <img src={images.linkedin} alt="LinkedIn" />
             </a>
+
             <a
               className={styles.redesLink}
               href="https://github.com/anasander"
@@ -28,6 +30,16 @@ const Footer = () => {
             >
               <img src={images.github} alt="GitHub" />
             </a>
+
+            <a
+              className={styles.redesLink}
+              href="https://www.behance.net/anasander"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img src={images.behance} alt="Behance" />
+            </a>
+
             <a
               className={styles.redesLink}
               href="https://twitter.com/LadySander"
@@ -36,15 +48,8 @@ const Footer = () => {
             >
               <img src={images.twitter} alt="Twitter" />
             </a>
-            <a
-              className={styles.redesLink}
-              href="https://www.instagram.com/anasander/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img src={images.instagram} alt="Intagram" />
-            </a>
           </div>
+
           <div className={styles.bottom}>
             <img src={images.catsit} alt="" />
             <p>Ana Sander. Alguns direitos reservados.</p>

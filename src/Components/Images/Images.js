@@ -35,8 +35,8 @@ export { default as googleUXdesignfinal } from "../../Assets/google-ux-design-fi
 export { default as email } from "../../Assets/email.svg";
 export { default as linkedin } from "../../Assets/linkedin.svg";
 export { default as github } from "../../Assets/github.svg";
+export { default as behance } from "../../Assets/behance.svg";
 export { default as twitter } from "../../Assets/twitter.svg";
-export { default as instagram } from "../../Assets/instagram.svg";
 
 // CAT ANIMATION
 export { default as catsit } from "../../Assets/catsit.svg";
